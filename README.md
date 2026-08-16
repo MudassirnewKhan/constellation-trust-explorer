@@ -214,8 +214,7 @@ trust-network/
 
 ## Live demo
 
-_Add your hosted demo link here once deployed._
-
+https://constellation-trust-explorer-pi.vercel.app
 
 
 - **Free-Tier Constraints & Graceful Degradation:** Running ~76K nodes and ~509K relationships pushes close to the 512MB RAM ceiling of CognoDB's free tier (`c0`). Deep or loosely connected graph traversals can occasionally trigger database timeouts (`TransientError`). The backend wraps execution in defensive error handling to catch these limits and surface a friendly message rather than crashing the app.
